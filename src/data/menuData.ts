@@ -9,7 +9,7 @@ export const MENU_DATA: Record<string, MenuCategory> = {
       {
         name: "MAKAY",
         price: "26.000",
-        desc: "Pan artesanal, carne de res, panceta, piña asada, queso cheddar, lechuga y papitas a la francesa.",
+        desc: "Pan artesanal, carne de res, panceta, piña asada, queso mozzarella, lechuga y papitas a la francesa.",
         image: "/foods/food-1.png",
         featured: true
       },
@@ -36,7 +36,7 @@ export const MENU_DATA: Record<string, MenuCategory> = {
       {
         name: "Callejera",
         price: "19.000",
-        desc: "Pan, carne de res, queso, ensalada y papa ripio.",
+        desc: "Pan, carne de res, tocineta, queso, ensalada y papa ripio.",
         image: "/foods/food-5.png"
       }
     ]
@@ -59,9 +59,9 @@ export const MENU_DATA: Record<string, MenuCategory> = {
     type: "comida",
     items: [
       { name: "Ranchera", price: "24.000", desc: "Papas a la francesa, salchicha tipo ranchera, tocineta, queso, maíz tierno.", image: "/foods/food-11.png" },
-      { name: "Pollo", price: "24.000", desc: "Papas a la francesa, trozos de pollo, queso, maíz tierno.", image: "/foods/food-12.png" },
+      { name: "Pollo", price: "24.000", desc: "Papas a la francesa, pollo desmechado, queso, maíz tierno.", image: "/foods/food-12.png" },
       { name: "Tradicional", price: "19.000", desc: "Papas a la francesa, huevos de codorniz, salchichas.", image: "/foods/food-13.png" },
-      { name: "Mexicanas", price: "24.000", desc: "Papas a la francesa, chorizo picante, carne sazonada, pico de gallo, queso, guacamole.", image: "/foods/food-14.png" },
+      { name: "Mexicanas", price: "24.000", desc: "Papas a la francesa, chorizo picante, carne desmechada, pico de gallo, queso, guacamole.", image: "/foods/food-14.png" },
     ]
   },
   asados: {

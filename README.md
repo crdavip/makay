@@ -1,73 +1,64 @@
-# React + TypeScript + Vite
+# 🍹 Makay | Menú Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web moderna y reactiva para la visualización del menú de Makay, construida con [React](https://react.dev/) y [Vite](https://vite.dev/), enfocada en una experiencia de usuario fluida y un diseño atractivo.
 
-Currently, two official plugins are available:
+## 🖥️ Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Ver Demo en vivo](https://makay.vercel.app/) 
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧰 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- **Vite** – Entorno de desarrollo ultrarrápido
+- **React 19** – Librería para interfaces de usuario
+- **TypeScript** – Tipado estático para mayor escalabilidad
+- **Tailwind CSS 4** – Framework de estilos utilitarios
+- **Lucide React** – Colección de iconos ligeros
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ⚙️ Instalación
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 1. Clonar el repositorio
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/crdavip/makay.git
+cd makay
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Instalar las dependencias
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+# o
+yarn install
 ```
+
+### 3. Iniciar el servidor de desarrollo
+
+```bash
+npm run dev
+# o
+yarn dev
+```
+
+Accede a la aplicación en: http://localhost:5174
+
+---
+
+## 🧪 Scripts útiles
+
+```bash
+npm run dev       # Iniciar servidor de desarrollo
+npm run build     # Compilar para producción
+npm run preview   # Previsualizar la build de producción
+npm run lint      # Ejecutar ESLint para verificar código
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado con ❤️ por **Cristian David**
+🔗 [GitHub](https://github.com/crdavip) · [LinkedIn](https://www.linkedin.com/in/crdavip/)

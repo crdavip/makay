@@ -1,0 +1,11 @@
+export { Cutlery } from './Cutlery';
+export { Baby } from './Baby';
+export { Burger } from './Burger';
+export { Plus } from './Plus';
+export { HotDog } from './HotDog';
+export { FrenchFries } from './FrenchFries';
+export { Fire } from './Fire';
+export { Coctail } from './Coctail';
+export { NoAlcohol } from './NoAlcohol';
+export { Soda } from './Soda';
+export { Lemonade } from './Lemonade';

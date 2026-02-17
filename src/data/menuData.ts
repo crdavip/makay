@@ -72,7 +72,7 @@ export const MENU_DATA: Record<string, MenuCategory> = {
       { name: "Punta de Anca", price: "35.000", desc: "Arepa con mozarela, papitas francesas y ensalada." },
       { name: "Solomito", price: "39.000", desc: "Ensalada, arepa con mozarela, papitas francesas." },
       { name: "Pechuga Gratinada", price: "28.000", desc: "Ensalada, arepa con mozarela, papitas francesas." },
-      { name: "Ceviche de Chicharrón", price: "30.000", desc: "Chicharrón picado, pico de gallo, guacamole y platanitos." },
+      { name: "Ceviche de Chicharrón", price: "30.000", desc: "Chicharrón picado, pico de gallo, guacamole y patacón o arepa." },
       { name: "Chuzo de Pollo", price: "25.000", desc: "Ensalada, arepa con mozarela, papitas francesas." }
     ]
   },
